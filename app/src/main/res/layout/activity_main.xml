@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#282220"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_height="500dp"
+        android:layout_width="300dp"
+       android:layout_marginTop="-70dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/startButton"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"
+        android:textSize="26dp"
+        android:textColor="#FFFBFA"
+        android:text="Start"/>
+
+
+</LinearLayout>
