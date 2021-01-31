@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282220">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="PHP"
+            android:textColor="#FFFBFA"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="Introduction"
+            android:textColor="#FFFBFA"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:text="What is PHP?"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="-350dp"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP is an acronym for : Hypertext Preprocessor"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="340dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFBFA"
+            android:text="PHP is a widely-used, open source scripting language"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="-270dp"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFBFA"
+            android:text="PHP scripts are executed on the server"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="340dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFBFA"
+            android:text="PHP is free to download and useater Sun Microsystems was acquired by the Oracle Corporatio in 2010. The first publicly available version of Java (Java 1.0) was released in 1995. Java programs are platform independent which means they ca be run on any operating system. "
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:text="What is PHP file"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="-375dp"
+            android:layout_width="350dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP files can contain text, HTML, CSS, JavaScript, and PHP code"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP code is executed on the server, and the result is returned to the browser as plain HTML."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP files have extension.php"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:text="What can PHP do?"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_marginTop="-375dp"
+            android:layout_width="350dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP can generate dynamic page content"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP can collect form data"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP can send and receive cookies"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP can add, delete, modify data in your database"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

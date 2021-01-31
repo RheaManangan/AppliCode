@@ -17,6 +17,61 @@
             </intent-filter>
         </activity>
         <activity android:name=".CandSClass"></activity>
+        <activity android:name=".Definition"></activity>
+        <activity android:name=".ServerSide"></activity>
+        <activity android:name=".Java"></activity>
+        <activity android:name=".JNum1Class"></activity>
+        <activity android:name=".Jnum2Class"></activity>
+        <activity android:name=".JNum3Class"></activity>
+        <activity android:name=".JNum4Class"></activity>
+        <activity android:name=".JNum5Class"></activity>
+        <activity android:name=".JNum6Class"></activity>
+        <activity android:name=".JNum7Class"></activity>
+        <activity android:name=".JNum8Class"></activity>
+        <activity android:name=".JNum9Class"></activity>
+        <activity android:name=".PHP"></activity>
+        <activity android:name=".PNum1Class"></activity>
+        <activity android:name=".PNum3Class"></activity>
+        <activity android:name=".PNum4Class"></activity>
+        <activity android:name=".PNum5Class"></activity>
+        <activity android:name=".PNum6Class"></activity>
+        <activity android:name=".PNum7Class"></activity>
+        <activity android:name=".PNum8Class"></activity>
+        <activity android:name=".PNum9Class"></activity>
+        <activity android:name=".PNum10Class"></activity>
+        <activity android:name=".PNum11Class"></activity>
+        <activity android:name=".PNum12Class"></activity>
+        <activity android:name=".Client"></activity>
+        <activity android:name=".DefClient"></activity>
+        <activity android:name=".JScript"></activity>
+        <activity android:name=".JSNum1Class"></activity>
+        <activity android:name=".JSNum2Class"></activity>
+        <activity android:name=".JSNum3Class"></activity>
+        <activity android:name=".JSNum4Class"></activity>
+        <activity android:name=".JSNum5Class"></activity>
+        <activity android:name=".JSNum6Class"></activity>
+        <activity android:name=".JSNum7Class"></activity>
+        <activity android:name=".JSNum8Class"></activity>
+        <activity android:name=".html"></activity>
+        <activity android:name=".HNum1Class"></activity>
+        <activity android:name=".HNum2Class"></activity>
+        <activity android:name=".HNum3Class"></activity>
+        <activity android:name=".HNum4Class"></activity>
+        <activity android:name=".HNum5Class"></activity>
+        <activity android:name=".HNum6Class"></activity>
+        <activity android:name=".HNum7Class"></activity>
+        <activity android:name=".HNum8Class"></activity>
+        <activity android:name=".JavaEx"></activity>
+        <activity android:name=".PhpEx"></activity>
+        <activity android:name=".JavaSEx"></activity>
+        <activity android:name=".HtmlEx"></activity>
+
+
+
+
+
+
+
     </application>
 
 </manifest>

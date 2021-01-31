@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282220">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:text="JAVA BASIC LEARNING"
+            android:textColor="#FFFBFA"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="Variables"
+            android:textColor="#FFFBFA"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="500dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Java Variables
+Variables are containers for storing data values.
+
+In Java, there are different types of variables, for example:
+
+String - stores text, such as Hello. String values are surrounded by double quotes
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+boolean - stores values with two states: true or false"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

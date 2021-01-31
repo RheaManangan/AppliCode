@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282220">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:text="JAVASCRIPT"
+            android:textColor="#FFFBFA"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="Boolean"
+            android:textColor="#FFFBFA"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="The JavaScript Booleans"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="A JavaScript Boolean represents one of two values: true or false"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="In programming you will need a data types that can only have one of two values,like:"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="YES/NO"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="ON/OFF"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="  TRUE/FALSE"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="Forthis, JavaScript has a Boolean Data Types/It can only take the values True or False"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

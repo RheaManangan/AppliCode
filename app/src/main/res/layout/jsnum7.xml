@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282220">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:text="JAVASCRIPT"
+            android:textColor="#FFFBFA"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="Switch"
+            android:textColor="#FFFBFA"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="The JavaScript Switch Statement"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="Use the switch statement to select one of many code blocks to be executed."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="Syntax"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="switch(expression) {"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="  case x:
+    // code block"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text=" break;"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="  case y:
+    // code block"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text=" break;"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text=" This is how it works:"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text=" The switch expression is evaluated once."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text=" The value of the expression is compared with the values of each case.
+
+"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text=" If there is a match, the associated block of code is executed."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text=" If there is no match, the default code block is executed."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

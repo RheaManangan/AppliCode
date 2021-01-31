@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282220">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="PHP"
+            android:textColor="#FFFBFA"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="116dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Variables"
+            android:textColor="#FFFBFA"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:text="PHP Variables
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume)."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="-230dp"
+            android:layout_width="350dp"
+            android:layout_height="320dp"
+            android:layout_marginLeft="20dp"
+            android:text="The differences are small: echo has no return value while print has a return value of 1 so it can be used in expressions. echo can take multiple parameters (although such usage is rare) while print can take one argument. echo is marginally faster than print."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="340dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFBFA"
+            android:text="The PHP echo Statement"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="-300dp"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFBFA"
+            android:text="The echo statement can be used with or without parentheses: echo or echo()."
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFBFA"
+            android:text="Display Text"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="The following example shows how to output text with the echo command (notice that the text can contain HTML markup):"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282220"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginTop="-40dp"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:text="Client Side Scripting Languages"
+        android:textColor="#FFFBFA"
+        android:textSize="32dp"
+        android:textStyle="bold"/>
+
+
+
+    <Button
+        android:id="@+id/btnjscript"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:text="JAVASCRIPT"
+        android:textSize="25dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnhtml"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="HTML"
+        android:textSize="25dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/back2c"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:layout_marginRight="90dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:layout_marginTop="180dp"/>
+
+    <Button
+        android:id="@+id/next2c"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Next"
+        android:layout_marginRight="-90dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:layout_marginTop="-50dp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#282220">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:text="JAVA BASIC LEARNING"
+        android:textColor="#FFFBFA"
+        android:textSize="36dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/intro"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Introduction"
+        android:textSize="32dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/use"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Why we use Java"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/jdk"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="What is JDK JRE and JVM"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/run"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:text=" How to compile and run JAVA PROGRAM"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/identifiers"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Identifiers"
+        android:textSize="25dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/types"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Data Types"
+        android:textSize="25dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/variables"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Variables"
+        android:textSize="25dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/loop"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Loop Control"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/decision"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Decision Making"
+        android:textSize="25dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="#FFFBFA"
+        android:textStyle="bold"/>
+        <Button
+            android:id="@+id/ex1"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Examples"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</ScrollView>

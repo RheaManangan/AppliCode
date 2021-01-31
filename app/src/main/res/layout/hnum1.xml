@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282220">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="HTML"
+            android:textColor="#FFFBFA"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="Introduction"
+            android:textColor="#FFFBFA"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="HTML is the standard markup language for creating Web pages."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="What is HTML?"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="HTML stands for Hyper Text Markup Language"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="HTML describes the structure of a Web page"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:text="HTML is the standard markup language for creating Web pages"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:text="HTML consists of a series of elements"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:text="HTML elements tell the browser how to display the content"
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:text="HTML elements label pieces of content such as this is a heading, this is a paragraph, this is a link, etc."
+            android:textColor="#FFFBFA"
+            android:textSize="26dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

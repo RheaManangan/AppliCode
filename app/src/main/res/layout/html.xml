@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#282220">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="HTML"
+            android:textColor="#FFFBFA"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/Hintro"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:text="HTML Introduction"
+            android:textSize="32dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/H22"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="HTML Editors"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/H3"
+            android:layout_width="360dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:text=" HTML Elements"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/H4"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="HTML Attributes"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/H5"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="HTML Headings"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/H6"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="HTML Paragraphs"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/H7"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="HTML STYLES"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/H8"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="HTML Colors"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/Ex4"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Examples"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</ScrollView>
