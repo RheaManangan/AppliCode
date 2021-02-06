@@ -38,9 +38,6 @@
         <activity android:name=".PNum7Class"></activity>
         <activity android:name=".PNum8Class"></activity>
         <activity android:name=".PNum9Class"></activity>
-        <activity android:name=".PNum10Class"></activity>
-        <activity android:name=".PNum11Class"></activity>
-        <activity android:name=".PNum12Class"></activity>
         <activity android:name=".Client"></activity>
         <activity android:name=".DefClient"></activity>
         <activity android:name=".JScript"></activity>

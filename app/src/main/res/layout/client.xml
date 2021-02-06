@@ -3,24 +3,26 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220"
+    android:background="@drawable/background"
     android:gravity="center">
 
     <TextView
         android:layout_marginTop="-40dp"
         android:layout_width="340dp"
-        android:layout_height="60dp"
+        android:layout_height="100dp"
         android:layout_marginLeft="5dp"
         android:text="Client Side Scripting Languages"
         android:textColor="#FFFBFA"
-        android:textSize="32dp"
-        android:textStyle="bold"/>
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textAlignment="center"/>
 
 
 
     <Button
         android:id="@+id/btnjscript"
-        android:layout_width="150dp"
+        android:layout_width="155dp"
         android:layout_height="50dp"
         android:layout_marginTop="70dp"
         android:text="JAVASCRIPT"

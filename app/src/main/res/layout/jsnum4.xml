@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -12,11 +12,13 @@
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="100dp"
-            android:text="JAVASCRIPT"
+            android:layout_marginLeft="10dp"
+            android:text="JavaScript"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
         <TextView
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
@@ -38,7 +40,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="120dp"
             android:layout_marginLeft="20dp"
             android:text="Conditional statements are used to perform different actions based on different conditions."
@@ -58,7 +60,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="-20dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="130dp"
             android:layout_marginLeft="20dp"
             android:text="Very often when you write code, you want to perform different actions for different decisions."
@@ -68,7 +70,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_marginLeft="20dp"
             android:text="In JavaScript we have the following conditional statements:"
@@ -78,8 +80,8 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:layout_width="350dp"
-            android:layout_height="330dp"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
             android:layout_marginLeft="20dp"
             android:text="Use if to specify a block of code to be executed, if a specified condition is true
 Use else to specify a block of code to be executed, if the same condition is false

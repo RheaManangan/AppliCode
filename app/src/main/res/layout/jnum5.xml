@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
 
 
     <LinearLayout
@@ -15,11 +15,13 @@
         android:layout_marginTop="20dp"
         android:layout_width="340dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="50dp"
-        android:text="JAVA BASIC LEARNING"
+        android:layout_marginLeft="5dp"
+        android:text="Java BAsic Learning"
         android:textColor="#FFFBFA"
-        android:textSize="36dp"
-        android:textStyle="bold"/>
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textAlignment="center"/>
     <TextView
         android:layout_marginTop="20dp"
         android:layout_width="340dp"
@@ -31,8 +33,8 @@
         android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="340dp"
-            android:layout_height="310dp"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:text="Identifiers are the names of variables, methods, classes, packages and interfaces. Unlike literals they are not the things themselves, just ways of referring to them. In the HelloWorld program, HelloWorld, String, args, main and println are identifiers."

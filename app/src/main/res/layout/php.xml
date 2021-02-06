@@ -2,27 +2,30 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#282220">
+        android:layout_height="match_parent">
 
 
         <TextView
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="10dp"
             android:text="PHP"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
 
         <Button
             android:id="@+id/Pintro"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="30dp"
             android:text="Introduction"
@@ -32,7 +35,8 @@
             android:textStyle="bold"/>
         <Button
             android:id="@+id/P3"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:text="Variables"
@@ -42,7 +46,8 @@
             android:textStyle="bold"/>
         <Button
             android:id="@+id/P4"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="90dp"
             android:layout_marginTop="10dp"
             android:text=" Echo and Print Statements"
@@ -52,7 +57,8 @@
             android:textStyle="bold"/>
         <Button
             android:id="@+id/P5"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:text="Conditional Statements"
@@ -62,7 +68,8 @@
             android:textStyle="bold"/>
         <Button
             android:id="@+id/P6"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:text="Form Handling"
@@ -72,7 +79,8 @@
             android:textStyle="bold"/>
         <Button
             android:id="@+id/P7"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:text="MySQL Databases"
@@ -82,7 +90,8 @@
             android:textStyle="bold"/>
         <Button
             android:id="@+id/P8"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:text="Connect to MySQL"
@@ -92,7 +101,8 @@
             android:textStyle="bold"/>
         <Button
             android:id="@+id/P9"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:text="Create MySQL Database"
@@ -102,14 +112,16 @@
             android:textStyle="bold"/>
         <Button
             android:id="@+id/Ex2"
-            android:layout_width="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:text="Examples"
             android:textSize="25dp"
             android:background="@drawable/button_rounded"
             android:textColor="#FFFBFA"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
     </LinearLayout>
 
 </ScrollView>

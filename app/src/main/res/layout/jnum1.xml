@@ -2,58 +2,59 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
         <TextView
-            android:layout_marginTop="20dp"
             android:layout_width="340dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="50dp"
-            android:text="JAVA BASIC LEARNING"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:text="Java Basic Learning"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="340dp"
-            android:layout_height="60dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:text="Introduction"
             android:textColor="#FFFBFA"
-            android:textSize="32dp"
+            android:textSize="34dp"
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="350dp"
-            android:layout_height="400dp"
+            android:layout_width="300dp"
+            android:layout_height="420dp"
             android:layout_marginLeft="20dp"
             android:text="Java is a high level programming language created by James Gosling from Sun Microsystems(Sun) in 1991. Later Sun Microsystems was acquired by the Oracle Corporatio in 2010. The first publicly available version of Java (Java 1.0) was released in 1995. Java programs are platform independent which means they ca be run on any operating system. "
             android:textColor="#FFFBFA"
-            android:textSize="26dp"
+            android:textSize="28dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="5dp"
-            android:layout_width="350dp"
-            android:layout_height="200dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
             android:layout_marginLeft="20dp"
             android:text="Over time new enhanced versions of Java have been released. The current version of Java is 1.8 which is also known as Java 8."
             android:textColor="#FFFBFA"
-            android:textSize="26dp"
+            android:textSize="28dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="5dp"
-            android:layout_width="350dp"
-            android:layout_height="340dp"
+            android:layout_width="300dp"
+            android:layout_height="470dp"
             android:layout_marginLeft="20dp"
             android:text="Java is defined by a specification and consists of a programming language, a compiler, core libraries and a runtime (Java virtual machine) The Java runtime allows software developers to write program code in other languages than the Java programming language which still runs on the Java virtual machine. The Java platform is usually associated with the Java virtual machine and the Java core libraries."
             android:textColor="#FFFBFA"
-            android:textSize="26dp"
+            android:textSize="28dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
 

@@ -3,18 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#282220"
+    android:background="@drawable/background"
     android:gravity="center">
 
     <TextView
-        android:layout_marginTop="-50dp"
+        android:layout_marginTop="30dp"
         android:layout_width="340dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="10dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
         android:text="Client Side Scripting Languange"
         android:textColor="#FFFBFA"
-        android:textSize="32dp"
-        android:textStyle="bold"/>
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textAlignment="center"/>
 
     <TextView
         android:layout_marginTop="-1dp"
@@ -28,36 +30,37 @@
 
     <TextView
         android:layout_marginTop="-3dp"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="150dp"
         android:layout_marginLeft="10dp"
         android:text="Works at the front end and script are visible among the users."
         android:textColor="#FFFBFA"
-        android:textSize="26dp"/>
+        android:textSize="28dp"/>
     <TextView
         android:layout_marginTop="-50dp"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="250dp"
         android:layout_marginLeft="10dp"
         android:text="The client-side scripting emphasize on making the interface of the web application or website more appealing and functional."
         android:textColor="#FFFBFA"
-        android:textSize="26dp"/>
+        android:textSize="28dp"/>
     <Button
         android:layout_width="120dp"
         android:layout_height="40dp"
         android:id="@+id/back1C"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:layout_marginLeft="-100dp"
         android:background="@drawable/button_rounded"
         android:text="Back"
         android:textColor="#FFFBFA"
+        android:layout_marginBottom="20dp"
 
         />
     <Button
         android:layout_width="120dp"
         android:layout_height="40dp"
         android:id="@+id/next1C"
-        android:layout_marginTop="-41dp"
+        android:layout_marginTop="-60dp"
         android:layout_marginLeft="100dp"
         android:text="Next"
         android:background="@drawable/button_rounded"

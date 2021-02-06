@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,15 +13,17 @@
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="50dp"
-            android:text="JAVA BASIC LEARNING"
+            android:layout_marginLeft="10dp"
+            android:text="Java Basic Learning"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
         <TextView
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
-            android:layout_height="60dp"
+            android:layout_height="90dp"
             android:layout_marginLeft="10dp"
             android:text="How to compile and run java program"
             android:textColor="#FFFBFA"
@@ -29,19 +31,19 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="340dp"
-            android:layout_height="900dp"
+            android:layout_width="300dp"
+            android:layout_height="800dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:text="Compiling and running a java program is very easy after JDK installation. Following are the steps −
 
-            Open a command prompt window and go to the directory where you saved the java program (MyFirstJavaProgram.java). Assume it's C:\.
+                        Open a command prompt window and go to the directory where you saved the java program (MyFirstJavaProgram.java). Assume it's C:\.
 
-            Type 'javac MyFirstJavaProgram.java' and press enter to compile your code. If there are no errors in your code, the command prompt will take you to the next line (Assumption: The path variable is set).
+                        Type 'javac MyFirstJavaProgram.java' and press enter to compile your code. If there are no errors in your code, the command prompt will take you to the next line (Assumption: The path variable is set).
 
-            Now, type ' java MyFirstJavaProgram ' to run your program.
+                        Now, type ' java MyFirstJavaProgram ' to run your program.
 
-            You will be able to see the result printed on the window"
+                        You will be able to see the result printed on the window"
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:textStyle="bold"/>

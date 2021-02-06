@@ -3,18 +3,20 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220"
+    android:background="@drawable/background"
     android:gravity="center">
 
     <TextView
-        android:layout_marginTop="-40dp"
+        android:layout_marginTop="-50dp"
         android:layout_width="340dp"
-        android:layout_height="60dp"
+        android:layout_height="100dp"
         android:layout_marginLeft="5dp"
         android:text="Server Side Scripting Languages"
         android:textColor="#FFFBFA"
-        android:textSize="32dp"
-        android:textStyle="bold"/>
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textAlignment="center"/>
 
 
 
@@ -22,7 +24,7 @@
         android:id="@+id/java"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="100dp"
         android:text="JAVA"
         android:textSize="25dp"
         android:background="@drawable/button_rounded"
@@ -50,7 +52,7 @@
         android:layout_marginRight="90dp"
         android:background="@drawable/button_rounded"
         android:textColor="#FFFBFA"
-        android:layout_marginTop="180dp"/>
+        android:layout_marginTop="100dp"/>
 
     <Button
         android:id="@+id/next2"

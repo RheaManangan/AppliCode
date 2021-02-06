@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
 
 
     <LinearLayout
@@ -15,11 +15,13 @@
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="50dp"
-            android:text="JAVA BASIC LEARNING"
+            android:layout_marginLeft="10dp"
+            android:text="Java Basic Learning"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
         <TextView
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
@@ -31,7 +33,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="340dp"
+            android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -43,7 +45,7 @@ else-if statement,
 Conditional Operator,
 Switch statement"
             android:textColor="#FFFBFA"
-            android:textSize="26dp"
+            android:textSize="28dp"
             android:textStyle="bold"/>
 
 

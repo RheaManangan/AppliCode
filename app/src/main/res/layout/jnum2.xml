@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -12,11 +12,13 @@
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="50dp"
-            android:text="JAVA BASIC LEARNING"
+            android:layout_marginLeft="10dp"
+            android:text="Java Basic Learning"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
         <TextView
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
@@ -28,20 +30,18 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="340dp"
+            android:layout_width="300dp"
             android:layout_height="700dp"
             android:layout_marginLeft="20dp"
-            android:text="Why Use Java?
-                     Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
-            It is one of the most popular programming language in the world
-            It is easy to learn and simple to use
-            It is open-source and free
-            It is secure, fast and powerful
-            It has a huge community support (tens of millions of developers)
-            Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
+            android:text="Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+                                              It is one of the most popular programming language in the world
+                                               It is easy to learn and simple to use
+                                               It is secure, fast and powerful
+                                               It has a huge community support (tens of millions of developers)
+                        Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
             As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa"
             android:textColor="#FFFBFA"
-            android:textSize="26dp"
+            android:textSize="28dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
 

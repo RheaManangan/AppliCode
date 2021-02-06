@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -12,11 +12,13 @@
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="10dp"
             android:text="PHP"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="380dp"
@@ -30,7 +32,7 @@
 
         <TextView
             android:layout_marginTop="0dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="400dp"
             android:layout_marginLeft="20dp"
             android:text="PHP Variables
@@ -41,7 +43,7 @@ A variable can have a short name (like x and y) or a more descriptive name (age,
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="-230dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="320dp"
             android:layout_marginLeft="20dp"
             android:text="The differences are small: echo has no return value while print has a return value of 1 so it can be used in expressions. echo can take multiple parameters (although such usage is rare) while print can take one argument. echo is marginally faster than print."
@@ -51,7 +53,7 @@ A variable can have a short name (like x and y) or a more descriptive name (age,
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="5dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="340dp"
             android:layout_marginLeft="20dp"
             android:textColor="#FFFBFA"
@@ -62,7 +64,7 @@ A variable can have a short name (like x and y) or a more descriptive name (age,
 
         <TextView
             android:layout_marginTop="-300dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="65dp"
             android:layout_marginLeft="20dp"
             android:textColor="#FFFBFA"
@@ -72,7 +74,7 @@ A variable can have a short name (like x and y) or a more descriptive name (age,
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="30dp"
             android:layout_marginLeft="20dp"
             android:textColor="#FFFBFA"
@@ -82,8 +84,8 @@ A variable can have a short name (like x and y) or a more descriptive name (age,
             android:textStyle="bold"/>
 
         <TextView
-            android:layout_width="350dp"
-            android:layout_height="400dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
@@ -91,6 +93,10 @@ A variable can have a short name (like x and y) or a more descriptive name (age,
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:textStyle="bold" />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/pvariables"/>
 
     </LinearLayout>
 

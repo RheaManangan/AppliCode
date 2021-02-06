@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -12,11 +12,13 @@
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="10dp"
             android:text="HTML"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
         <TextView
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
@@ -28,16 +30,17 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
             android:text="HTML is the standard markup language for creating Web pages."
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
@@ -47,65 +50,75 @@
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="350dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
             android:text="HTML stands for Hyper Text Markup Language"
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="350dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
             android:text="HTML describes the structure of a Web page"
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="350dp"
-            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
             android:text="HTML is the standard markup language for creating Web pages"
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="350dp"
-            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
             android:text="HTML consists of a series of elements"
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="350dp"
-            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
             android:text="HTML elements tell the browser how to display the content"
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="350dp"
-            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
             android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
             android:text="HTML elements label pieces of content such as this is a heading, this is a paragraph, this is a link, etc."
             android:textColor="#FFFBFA"
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/htmlintro"/>
 
 
     </LinearLayout>

@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -10,16 +10,18 @@
         android:gravity="center">
         <TextView
             android:layout_marginTop="20dp"
-            android:layout_width="340dp"
+            android:layout_width="300dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="10dp"
             android:text="HTML"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
             android:text="HTML Paragraphs"
@@ -29,7 +31,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_marginLeft="20dp"
             android:text="A paragraph always starts on a new line, and is usually a block of text."
@@ -39,7 +41,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="250dp"
             android:layout_marginLeft="20dp"
             android:text="The HTML p element defines a paragraph.
@@ -49,6 +51,10 @@
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/paragraphs"/>
 
 
 

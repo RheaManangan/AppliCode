@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#282220">
+    android:background="@drawable/background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -12,21 +12,15 @@
             android:layout_marginTop="20dp"
             android:layout_width="340dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="5dp"
             android:text="PHP"
             android:textColor="#FFFBFA"
-            android:textSize="36dp"
-            android:textStyle="bold"/>
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"/>
 
-        <TextView
-            android:layout_width="380dp"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
-            android:text="Conditional Statements"
-            android:textColor="#FFFBFA"
-            android:textSize="35dp"
-            android:textStyle="bold" />
+
 
         <TextView
             android:layout_marginTop="0dp"
@@ -40,7 +34,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="-360dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="320dp"
             android:layout_marginLeft="20dp"
             android:text="Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this."
@@ -50,7 +44,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="-100dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="340dp"
             android:layout_marginLeft="20dp"
             android:textColor="#FFFBFA"
@@ -61,7 +55,7 @@
 
         <TextView
             android:layout_marginTop="-250dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="65dp"
             android:layout_marginLeft="20dp"
             android:textColor="#FFFBFA"
@@ -71,7 +65,7 @@
             android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="130dp"
             android:layout_marginLeft="20dp"
             android:textColor="#FFFBFA"
@@ -81,7 +75,7 @@
             android:textStyle="bold"/>
 
         <TextView
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="400dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
@@ -92,7 +86,7 @@
             android:textStyle="bold" />
         <TextView
             android:layout_marginTop="-285dp"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="130dp"
             android:layout_marginLeft="20dp"
             android:textColor="#FFFBFA"
@@ -100,6 +94,10 @@
             android:textSize="26dp"
             android:layout_marginRight="20dp"
             android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/cstatements"/>
 
 
     </LinearLayout>

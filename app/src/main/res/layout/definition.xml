@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#282220"
+    android:background="@drawable/background"
     android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
 
     <TextView
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_width="340dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="10dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
         android:text="Server Side Scripting Languange"
         android:textColor="#FFFBFA"
-        android:textSize="32dp"
-        android:textStyle="bold"/>
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textAlignment="center"/>
 
     <TextView
         android:layout_marginTop="-1dp"
@@ -23,30 +30,33 @@
         android:layout_marginLeft="20dp"
         android:text="Definition"
         android:textColor="#FFFBFA"
-        android:textSize="30dp"
+        android:textSize="34dp"
         android:textStyle="bold"/>
 
     <TextView
         android:layout_marginTop="-3dp"
-        android:layout_width="350dp"
-        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
         android:text="Server-side scripting is a technique used in web development which involves employing scripts on a web server which produce a response customised for each user's (client's) request to the website."
         android:textColor="#FFFBFA"
-        android:textSize="26dp"/>
+        android:textSize="28dp" />
     <TextView
-        android:layout_marginTop="-5dp"
-        android:layout_width="350dp"
+        android:layout_marginTop="-40dp"
+        android:layout_width="300dp"
         android:layout_height="250dp"
-        android:layout_marginLeft="10dp"
         android:text="Server-Side Scripting works in the back end so it is not visible to the user.It requires server interaction and is relatively secure."
         android:textColor="#FFFBFA"
-        android:textSize="26dp"/>
+        android:textSize="28dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"/>
     <Button
         android:layout_width="120dp"
         android:layout_height="40dp"
         android:id="@+id/back1"
-        android:layout_marginTop="-80dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="5dp"
         android:layout_marginLeft="-100dp"
         android:background="@drawable/button_rounded"
         android:text="Back"
@@ -57,16 +67,17 @@
         android:layout_width="120dp"
         android:layout_height="40dp"
         android:id="@+id/next1"
-        android:layout_marginTop="-41dp"
+        android:layout_marginTop="-45dp"
         android:layout_marginLeft="100dp"
         android:text="Next"
         android:background="@drawable/button_rounded"
         android:textColor="#FFFBFA"
 
         />
-
-
-
-
-
 </LinearLayout>
+
+
+
+
+
+</ScrollView>
