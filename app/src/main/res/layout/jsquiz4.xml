@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:text="QUIZ TIME !"
+            android:textColor="#FFFBFA"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:text="4.Identify what is being ask. "
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            />
+        <TextView
+            android:text="It is a part of the web browser and allows you to log message,run JavaScript code and see errors and warnings?"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:id="@+id/answerjs4"/>
+
+        <Button
+            android:id="@+id/donejs4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="130dp"
+            android:text="Done"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -24,6 +24,7 @@ public class Java extends AppCompatActivity {
         Button loopButton = findViewById(R.id.loop);
         Button decisionButton = findViewById(R.id.decision);
         Button ex1 = findViewById(R.id.ex1);
+        Button javaquiz = findViewById(R.id.javaquiz);
 
 
         introButton.setOnClickListener(new View.OnClickListener() {
@@ -102,6 +103,14 @@ public class Java extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Java.this, JavaEx.class);
+                startActivity(intent);
+            }
+
+        });
+        javaquiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Java.this, JavaQuiz1.class);
                 startActivity(intent);
             }
 

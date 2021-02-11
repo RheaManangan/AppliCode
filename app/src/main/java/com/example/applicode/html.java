@@ -23,6 +23,7 @@ public class html extends AppCompatActivity {
         Button H7 = findViewById(R.id.H7);
         Button H8 = findViewById(R.id.H8);
         Button Ex4 = findViewById(R.id.Ex4);
+        Button htmlquiz = findViewById(R.id.htmlquiz);
 
 
         Hintro.setOnClickListener(new View.OnClickListener() {
@@ -93,6 +94,14 @@ public class html extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(html.this, HtmlEx.class);
+                startActivity(intent);
+            }
+
+        });
+        htmlquiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(html.this, HtmlQuiz1.class);
                 startActivity(intent);
             }
 

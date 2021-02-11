@@ -23,6 +23,7 @@ public class JScript extends AppCompatActivity {
         Button J7 = findViewById(R.id.J7);
         Button J8 = findViewById(R.id.J8);
         Button Ex3 = findViewById(R.id.Ex3);
+        Button jsquiz = findViewById(R.id.jsquiz);
 
 
         Jintro.setOnClickListener(new View.OnClickListener() {
@@ -93,6 +94,14 @@ public class JScript extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(JScript.this, JavaSEx.class);
+                startActivity(intent);
+            }
+
+        });
+        jsquiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(JScript.this, JsQuiz1.class);
                 startActivity(intent);
             }
 

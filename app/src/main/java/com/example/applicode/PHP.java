@@ -23,6 +23,7 @@ public class PHP extends AppCompatActivity {
         Button P8 = findViewById(R.id.P8);
         Button P9 = findViewById(R.id.P9);
         Button Ex2 = findViewById(R.id.Ex2);
+        Button phpquiz = findViewById(R.id.phpquiz);
 
 
         Pintro.setOnClickListener(new View.OnClickListener() {
@@ -93,6 +94,14 @@ public class PHP extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(PHP.this, PhpEx.class);
+                startActivity(intent);
+            }
+
+        });
+        phpquiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PHP.this, PhpQuiz1.class);
                 startActivity(intent);
             }
 

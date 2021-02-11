@@ -63,6 +63,59 @@
         <activity android:name=".JavaSEx"></activity>
         <activity android:name=".HtmlEx"></activity>
 
+        <activity android:name=".JavaQuiz1"></activity>
+        <activity android:name=".JavaQuiz2"></activity>
+        <activity android:name=".JavaQuiz3"></activity>
+        <activity android:name=".JavaQuiz4"></activity>
+        <activity android:name=".JavaQuiz5"></activity>
+
+        <activity android:name=".DisplayClass"></activity>
+        <activity android:name=".DisplayClassJ2"></activity>
+        <activity android:name=".DisplayClassJ3"></activity>
+        <activity android:name=".DisplayClassJ4"></activity>
+        <activity android:name=".DisplayClassJ5"></activity>
+        <activity android:name=".ScoreJava"></activity>
+
+        <activity android:name=".PhpQuiz1"></activity>
+        <activity android:name=".PhpQuiz2"></activity>
+        <activity android:name=".PhpQuiz3"></activity>
+        <activity android:name=".PhpQuiz4"></activity>
+        <activity android:name=".PhpQuiz5"></activity>
+
+        <activity android:name=".DisplayClassP1"></activity>
+        <activity android:name=".DisplayClassP2"></activity>
+        <activity android:name=".DisplayClassP3"></activity>
+        <activity android:name=".DisplayClassP4"></activity>
+        <activity android:name=".DisplayClassP5"></activity>
+        <activity android:name=".ScorePhp"></activity>
+
+        <activity android:name=".JsQuiz1"></activity>
+        <activity android:name=".JsQuiz2"></activity>
+        <activity android:name=".JsQuiz3"></activity>
+        <activity android:name=".JsQuiz4"></activity>
+        <activity android:name=".JsQuiz5"></activity>
+
+        <activity android:name=".DisplayClassJs1"></activity>
+        <activity android:name=".DisplayClassJs2"></activity>
+        <activity android:name=".DisplayClassJs3"></activity>
+        <activity android:name=".DisplayClassJs4"></activity>
+        <activity android:name=".DisplayClassJs5"></activity>
+        <activity android:name=".ScoreJs"></activity>
+
+
+        <activity android:name=".HtmlQuiz1"></activity>
+        <activity android:name=".HtmlQuiz2"></activity>
+        <activity android:name=".HtmlQuiz3"></activity>
+        <activity android:name=".HtmlQuiz4"></activity>
+        <activity android:name=".HtmlQuiz5"></activity>
+
+        <activity android:name=".DisplayClassHtml1"></activity>
+        <activity android:name=".DisplayClassHtml2"></activity>
+        <activity android:name=".DisplayClassHtml3"></activity>
+        <activity android:name=".DisplayClassHtml4"></activity>
+        <activity android:name=".DisplayClassHtml5"></activity>
+        <activity android:name=".ScoreHtml"></activity>
+
 
 
 

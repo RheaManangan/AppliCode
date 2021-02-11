@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:text="QUIZ TIME !"
+            android:textColor="#FFFBFA"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:text="5.It is an Acronym for Hypertext Preprocessor"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:id="@+id/answerphp5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-100dp"
+            android:layout_marginLeft="120dp"
+            android:text=""
+            android:textColor="#FFFBFA"/>
+
+        <Button
+            android:id="@+id/donephp5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:text="Done"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,3 +1,143 @@
 <resources>
     <string name="app_name">AppliCode</string>
+
+    <string name="javaquiz1">
+1. Fill in the blanks Java "Hello, World!" Program
+    \n \n \n
+        class HelloWorld {
+        \n
+         public static void main(String[] args) {
+        \n
+    </string>
+    <string name="hello">("Hello, World!");
+        \n
+                }
+        \n
+                }</string>
+
+
+
+    <string name="javaquiz2">
+        2.Fill in the blanks printing variables and literals
+        \n
+        \n
+        \n
+        public static void main(String
+    </string>
+    <string name="code2">
+        args) {\n
+            Double number = -10.6;\n
+                    System.out.println(5);\n
+                                    System.out.println(number);\n
+                                                        }
+    </string>
+<string name="javaquiz3">3. Fill in the blanks Java program to add two numbers.
+\n \n \n
+public class Addition{\n
+ public static void main(String[] args) {\n
+      int num1, num2, sum;\n
+      num1 = 10;\n
+               num2 = 20;\n
+      sum = num1 + num2;\n
+      System.out.println("
+</string>
+    <string name="code3">
+= "+ sum); \n
+             } \n
+                    }
+    </string>
+
+    <string name="javaquiz4">
+        4. Fill in the blanks Fibonnacci series program in java
+\n \n \n
+class FibonacciExample1{  \n
+public static void main(String args[]) \n
+{    \n
+ int n1=0,n2=1,n3,i,count=10;  \n
+   System.out.print(n1+" "+n2);  \n
+    </string>
+    <string name="code4">
+        (i=2;  i count;++i)\n
+      {\n
+          n3=n1+n2;\n
+                System.out.print(" "+n3);\n
+                        n1=n2;\n
+                                  n2=n3;\n
+                                             }\n
+                                             }}
+
+    </string>
+
+<string name="javaquiz5">
+    5. Fill in the blanks Java program to divide two numbers and print on the screen.
+\n
+import java.util.Scanner;
+\n
+public class Main {\n
+  public static void main(String[] args) \n
+      {\n
+              Scanner input = new
+</string>
+    <string name="code5">
+        (System.in);\n
+        System.out.print("Input the first number: ");\n
+        int a = input.nextInt();\n
+        System.out.print("Input the second number: ");\n
+        int b = input.nextInt();\n
+        int d = (a/b);\n
+        System.out.println();\n
+        System.out.println("The division of a and b is:" +d);
+    </string>
+
+    <string name="phpquiz1">
+        php
+        $txt = " PHP ";  \n
+  echo " I love You ";
+        \n\n \n
+  ?>
+    </string>
+
+
+
+
+    <string name="phpquiz2">
+        2. Fill the correct syntax to display "Hello World!"
+
+    </string>
+    <string name="phpquiz3">
+       3. Fill in the blanks using PHP Loop \n\n\n
+
+            $count = 50;\n
+
+    </string>
+    <string name="phpcode3">
+        ($count >= 15)\n
+{\n
+  echo $count;\n
+      echo " " ;\n
+        $count++;\n
+          }\n
+    </string>
+
+    <string name="phpquiz4">
+        4. Fill in the blanks factorial program using for loop php\n\n\n
+            $num = 3;\n
+            $factorial = 1;\n
+\n
+            for ($x=$num; $x>=1; $x--)\n
+            {\n
+    </string>
+
+<string name="phpcode4">
+    = $factorial * $x; \n
+        }\n
+        echo "The factorial of \n $num is $factorial";
+</string>
+
+
+
+
+
+
+
 </resources>

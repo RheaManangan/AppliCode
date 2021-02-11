@@ -125,7 +125,6 @@
         android:textStyle="bold"/>
         <Button
             android:layout_marginLeft="30dp"
-            android:layout_marginBottom="10dp"
             android:id="@+id/ex1"
             android:layout_width="300dp"
             android:layout_height="60dp"
@@ -134,7 +133,21 @@
             android:textSize="25dp"
             android:background="@drawable/button_rounded"
             android:textColor="#FFFBFA"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/javaquiz"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Quiz"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFBFA"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"/>
     </LinearLayout>
 
 </ScrollView>
